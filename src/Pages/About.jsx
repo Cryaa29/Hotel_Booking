@@ -1,0 +1,73 @@
+const steps = [
+  {
+    n: '01',
+    title: 'Tell us where',
+    body: 'ស្វែងរកតាមទីក្រុង ប្រទេស ឬប្រភេទទេសភាពដែលអ្នកចង់ដើរកំសាន្ត.',
+  },
+  {
+    n: '02',
+    title: 'Compare stays',
+    body: 'មើលតម្លៃ ការវាយតម្លៃពីភ្ញៀវ និងចំណុចពិសេសដែលធ្វើឱ្យកន្លែងនីមួយៗមានតម្លៃសម្រាប់ការធ្វើដំណើរ.',
+  },
+  {
+    n: '03',
+    title: 'Check in ',
+    body: ' Check ការកក់របស់អ្នកបានក្នុងរយៈពេលតែប៉ុន្មានជំហានប៉ុណ្ណោះ.',
+  },
+]
+
+export default function About() {
+  return (
+    <div>
+      <section
+        className="relative bg-ink text-cream bg-cover bg-center"
+        style={{ backgroundImage: "url('https://i.pinimg.com/1200x/e5/83/9b/e5839b05f4506b9f6550f86e0b43d53f.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+         }}
+      >
+        
+        <div className="absolute inset-0 bg-ink/70" />
+
+        <div className="relative max-w-6xl mx-auto px-5 md:px-8 py-20 md:py-24">
+          <p className="font-mono text-xs uppercase tracking-[0.3em] text-gold-light mb-6">
+            About The Royal
+          </p>
+          <h1 className="font-display text-4xl md:text-6xl leading-[1.05] max-w-2xl">
+            <br />
+            <span className="italic text-gold-light">រីករាយជាមួយសេវាកម្មរបស់ពួកយើង.</span>
+          </h1>
+          <p className="mt-6 max-w-xl text-cream/70 text-lg">
+            គេហទំព័ររបស់យើងត្រូវបានបង្កើតឡើងដើម្បីធ្វើឱ្យដំណើរការកក់មានភាពសាមញ្ញ 
+            ដោយផ្តល់ព័ត៌មានលម្អិត អំពីសេវាកម្ម តម្លៃ និងពេលវេលាដែលអាចកក់បាន។ អ្នកប្រើប្រាស់អាចជ្រើសរើសសេវាកម្ម កំណត់ថ្ងៃ និងម៉ោង ហើយបញ្ជាក់ការកក់បានយ៉ាងងាយស្រួល។
+          </p>
+        </div>
+      </section>
+
+      <section className="max-w-6xl mx-auto px-5 md:px-8 py-4 pb-20">
+        <h2 className="font-display text-3xl text-ink mb-3">សេវាកម្មរបស់យើង</h2>
+        <p className="text-ink/70 max-w-2xl leading-relaxed">
+          យើងផ្តល់ជូននូវសេវាកម្មស្វែងរក និងកក់កន្លែងស្នាក់នៅដែលមានភាពងាយស្រួល 
+         រហ័ស និងអាចទុកចិត្តបាន។ អ្នកអាចប្រៀបធៀបតម្លៃពិត មើលរូបភាព និងការវាយតម្លៃពីភ្ញៀវ 
+         ដើម្បីជ្រើសរើសកន្លែងស្នាក់នៅដែលសមស្របនឹងតម្រូវការ និងថវិការបស់អ្នក។ ជាមួយនឹងដំណើរការកក់ដ៏សាមញ្ញ
+          និងតម្លាភាព យើងជួយឱ្យអ្នករៀបចំដំណើរកម្សាន្តរបស់អ្នកបានយ៉ាងងាយស្រួល និងមានទំនុកចិត្ត។
+        </p>
+      </section>
+
+      <section className="bg-sage/10">
+        <div className="max-w-6xl mx-auto px-5 md:px-8 py-20">
+          <h2 className="font-display text-3xl text-ink mb-10">How booking works</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {steps.map((step) => (
+              <div key={step.n}>
+                <span className="font-mono text-sm text-gold">{step.n}</span>
+                <h3 className="font-display text-xl text-ink mt-2">{step.title}</h3>
+                <p className="text-ink/70 mt-2 leading-relaxed">{step.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}

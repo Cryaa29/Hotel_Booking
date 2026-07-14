@@ -1,0 +1,122 @@
+const hotels = [
+  {
+    id: 1,
+    name: "The Temple",
+    city: "Siem Reap",
+    country: "Cambodia",
+    price: 78,
+    rating: 4.8,
+    reviews: 312,
+    tags: ["Pool", "Free Breakfast", "Spa"],
+    image: "https://i.pinimg.com/1200x/af/dd/af/afddaf2907fe544d61b4451c2b827334.jpg",
+    description:
+      "A quiet courtyard hotel a short tuk-tuk ride from the temples, built around a lily-pond pool and open-air breakfast pavilion.",
+  },
+  {
+    id: 2,
+    name: "Marina Bluff Hotel",
+    city: "Da Nang",
+    country: "Vietnam",
+    price: 64,
+    rating: 4.5,
+    reviews: 508,
+    tags: ["Beachfront", "Free WiFi", "Bar"],
+    image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80",
+    description:
+      "Beachfront rooms with private balconies overlooking the bay, a rooftop bar, and a beach shuttle every hour.",
+  },
+  {
+    id: 3,
+    name: "Kyoto Maple House",
+    city: "Kyoto",
+    country: "Japan",
+    price: 142,
+    rating: 4.9,
+    reviews: 221,
+    tags: ["Onsen", "Free Breakfast", "Ryokan-style"],
+    image: "https://images.unsplash.com/photo-1578469645742-46cae010e5d4?w=800&q=80",
+    description:
+      "A restored machiya townhouse with tatami rooms, a private indoor onsen bath, and a kaiseki breakfast on request.",
+  },
+  {
+    id: 4,
+    name: "The Ocean",
+    city: "Koh Kong 'Koh Rong'",
+    country: "Cambodia",
+    price: 15,
+    rating: 4.7,
+    reviews: 189,
+    tags: ["Hot Tub", "Free Parking", "Fireplace Lounge"],
+    image: "https://i.pinimg.com/736x/60/90/dd/6090dd3ba852fa5cd205d66d2c24ec5e.jpg",
+    description:
+      "Timber lodge on the edge of town with a heated outdoor tub built for watching the northern lights.",
+  },
+  {
+    id: 5,
+    name: "Kom san Resort ",
+    city: "Kompot",
+    country: "Cambodia",
+    price: 65,
+    rating: 4.6,
+    reviews: 402,
+    tags: ["Rooftop Pool", "Free Breakfast", "Free WiFi"],
+    image: "https://i.pinimg.com/1200x/ab/44/8c/ab448c15bcd56ab921a17ab007665042.jpg",
+    description:
+      "A converted 18th-century townhouse two streets from the cathedral, with a rooftop plunge pool and orange-tree patio.",
+  },
+  {
+    id: 6,
+    name: "Prasat ",
+    city: "Siem Reap",
+    country: "Cambodia",
+    price: 121,
+    rating: 4.4,
+    reviews: 156,
+    tags: ["Harbor View", "Free WiFi", "Sauna"],
+    image: "https://images.unsplash.com/photo-1455587734955-081b22074882?w=800&q=80",
+    description:
+      "Harborside rooms with copper-clad gables, a wood-fired sauna, and a five minute walk to the fish market.",
+  },
+  {
+    id: 7,
+    name: "Jun Cheat",
+    city: "Mondolkiri",
+    country: "Cambodia",
+    price: 30,
+    rating: 4.7,
+    reviews: 634,
+    tags: ["Pool", "Rooftop Terrace", "Free Breakfast"],
+    image: "https://i.pinimg.com/1200x/ce/e3/6b/cee36ba219b3c199d6a9902503430aae.jpg",
+    description:
+      "A tiled riad hidden behind an unmarked door in the medina, with a plunge pool courtyard and mint tea on arrival.",
+  },
+  {
+    id: 8,
+    name: "The Bamboo",
+    city: "Battambang",
+    country: "Cambodia",
+    price: 110,
+    rating: 4.3,
+    reviews: 891,
+    tags: ["Gym", "Free WiFi", "City View"],
+    image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+    description:
+      "Industrial-chic loft rooms in a converted warehouse steps from the Highline, with a 24-hour gym and skyline views.",
+  },
+  {
+    id: 9,
+    name: "The Bambong",
+    city: "Battambang",
+    country: "Cambodia",
+    price: 55,
+    rating: 4.7,
+    reviews: 591,
+    tags: ["Gym", "Free WiFi", "City View"],
+    image: "https://i.pinimg.com/1200x/be/09/55/be0955295e73547a9d46aea30f337b36.jpg",
+    description:
+      " Best Hotel ever in battambang City",
+
+  },
+];
+
+export default hotels;
